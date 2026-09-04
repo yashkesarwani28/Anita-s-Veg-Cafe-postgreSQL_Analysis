@@ -30,7 +30,7 @@ The project uses a relational PostgreSQL database named `anitas_veg_cafe` contai
 |---|---|
 | `sales` | Customer orders and transactions |
 | `menu` | Product names and prices |
-| `loyal_customers` | Loyalty membership information |
+| `members` | Loyalty membership information |
 
 The tables are connected using `customer_id` and `product_id`.
 
@@ -95,10 +95,10 @@ The analysis translates SQL results into business actions such as:
 
 ## **📂 Project Files**
 
-- 📁 [Case Study](Case%20study/)
-- 📁 [Business Questions](Business%20Questions/)
-- 📁 [PostgreSQL SQL Analysis](PostgreSQL%20file/)
-- 📁 [Analysis & Business Report](Analysis%20and%20Report%20file/)
+- 📁 [Case Study](Case study)
+- 📁 [Business Questions](Business Questions)
+- 📁 [PostgreSQL SQL Analysis](PostgreSQL file/anita_sql_file.sql)
+- 📁 [Analysis & Business Report](Analysis and Report file/Anita's Veg Cafe Report file.pdf)
 
 ---
 
