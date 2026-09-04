@@ -24,6 +24,8 @@ Masala Dosa
 An all-day South Indian favorite served from breakfast through dinner.
 
 
+
+
 Although the café has a small menu, each dish serves a specific customer need. Paneer Butter Masala attracts regular customers, Veg Biryani is suitable for sharing, and Masala Dosa provides consistent demand throughout the day.
 
 🗄️ Dataset and Database Structure
@@ -42,8 +44,6 @@ product_id, product_name, price
 loyal_customers
 Identifies customers who joined the loyalty program.
 customer_id, join_date
-
-
 
 
 The sales table acts as the central transaction table. It connects to the menu table through product_id and to the loyal_customers table through customer_id. This structure allows customer activity, product information, order dates, prices, and loyalty membership to be analyzed together.
@@ -65,7 +65,6 @@ The second group focuses on menu performance and customer taste. It identifies t
 The third group evaluates customer behavior before and after joining the loyalty program. It determines the first dish ordered after joining, the last dish ordered before joining, the number of items purchased before membership, and the amount spent before becoming a loyalty member.
 
 The project also calculates loyalty points using a defined reward system. Customers earn 10 points for every ₹1 spent, while Paneer Butter Masala earns double points. In addition, members receive double points on all items during their first loyalty week. This makes the final analysis a time-based loyalty calculation involving purchase dates, membership dates, product-specific rules, and bonus periods.
-
 
 📈 Business Value
 
